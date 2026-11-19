@@ -14,7 +14,7 @@ end
 
 function s.startop(e, tp, eg, ep, ev, re, r, rp)
 	-- Change ATTRIBUTE_FIRE to whatever attribute you want to check for
-	local ct = Duel.GetMatchingGroupCount(Card.IsAttribute, tp, LOCATION_DECK | LOCATION_EXTRA, 0, nil, ATTRIBUTE_LIGHT)
+	local ct = Duel.GetMatchingGroupCount(Card.IsAttribute, tp, LOCATION_DECK, 0, nil, ATTRIBUTE_LIGHT)
 
 	-- If you don't have 6 or more monsters matching that attribute, the skill stays face-down
 	if ct < 6 then
