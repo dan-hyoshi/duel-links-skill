@@ -19,7 +19,7 @@ To use these cards in your EDOPro client, follow these steps to link this reposi
 
 ```json
 {
-  "url": "https://github.com/<DAN_HYOSHI EMAIL ACCOUNT>/YGO-DuelLinks",
+  "url": "https://github.com/dan-hyoshi/duel-links-skill.git",
   "repo_name": "Duel-Links",
   "repo_path": "./repositories/DuelLinks",
   "has_core": false,
